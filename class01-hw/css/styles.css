@@ -1,3 +1,65 @@
-p {
-	color: red;
+body {
+	background: whitesmoke;
+	font-family: "Helvetica", Arial, sans-serif;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	padding-bottom: 20px;
 }
+
+header {
+	text-align: center;
+	padding: 40px 0;
+}
+
+nav {
+	font-size: 18px;
+}
+
+.link-navigation {
+	padding: 0 10px;
+}
+
+.current-page {
+	text-decoration: none;
+}
+
+.other-page {
+	font-weight: bold;
+}
+
+a:visited {
+	color: #000;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 23px;
+	letter-spacing: 2px;
+}
+
+h3 { 
+	color:#22b2d6;
+	font-size: 19px;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+section {
+	border-top: 1px solid #000;
+	margin: 0px 70px;
+}
+
+p {
+	font-size: 17px;
+}
+
+
+
+
+
