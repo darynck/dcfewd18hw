@@ -27,8 +27,12 @@ nav {
 	font-weight: bold;
 }
 
-a:visited {
+a, a:visited {
 	color: #000;
+}
+
+a:hover {
+	color: #2290d6;
 }
 
 h1 {
@@ -42,7 +46,7 @@ h2 {
 }
 
 h3 { 
-	color:#22b2d6;
+	color: #2290d6;
 	font-size: 19px;
 }
 
@@ -55,11 +59,29 @@ section {
 	margin: 0px 70px;
 }
 
+.text-wrap {
+	float: right;
+	margin: 20px 0px 20px 10px;
+	padding: 10px;
+}
+
+img {
+	margin: 30px 0;
+	border: 1px solid #000;
+}
+
 p {
 	font-size: 17px;
 }
 
+footer {
+	border-top: 1px solid #000;
+	margin: 0px 350px 0px 70px;
+	padding-bottom: 60px;
+}
 
-
-
+.social-media {
+	font-weight: bold;
+	margin: 20px -40px;
+}
 
