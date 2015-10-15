@@ -15,13 +15,21 @@ nav {
 	font-size: 18px;
 }
 
-.link-navigation {
-	padding: 0 10px;
+.sitenav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  	text-align: center;
 }
 
-.current-page {
-	text-decoration: none;
+.sitenav li {
+	display: inline-block;
+	/*content:' | ';*/
 }
+
+/*.sitenav li:last-child {
+	content:'';
+}*/
 
 .other-page {
 	font-weight: bold;
@@ -35,33 +43,29 @@ a:hover {
 	color: #2290d6;
 }
 
-h1 {
+.title-page {
 	font-size: 50px;
 	margin: 10px 0;
 }
 
-h2 {
+.title-section {
 	font-size: 23px;
 	letter-spacing: 2px;
 }
 
-h3 { 
-	color: #2290d6;
-	font-size: 19px;
-}
-
-h4 {
-	margin-bottom: 0px;
+.title-experience {
+	margin-bottom: 0;
+	font-size: 17px;
 }
 
 section {
 	border-top: 1px solid #000;
-	margin: 0px 70px;
+	margin: 0 70px;
 }
 
 .text-wrap {
 	float: right;
-	margin: 20px 0px 20px 10px;
+	margin: 20px 0 20px 10px;
 	padding: 10px;
 }
 
