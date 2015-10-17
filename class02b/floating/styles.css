@@ -1,0 +1,31 @@
+.placeholder {
+	border: 1px solid black;
+	background: rgba(255,255,255,.6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+header {
+	width: 100%;
+	background: red;
+	float: left;
+}
+
+.main {
+	width: 33.3%;
+	float: left;
+	background: yellow;
+}
+
+aside {
+	width: 33.3%;
+	float: left;
+	background: green;
+}
+
+footer {
+	width: 33.3%;
+	float: right;
+	background: blue;
+}
