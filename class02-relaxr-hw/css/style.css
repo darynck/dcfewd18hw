@@ -106,7 +106,7 @@ header {
   width: 150px;
   height: 30px;
   background: #f9e42e;
-  padding: 5px 0 0 0;
+  padding: 6px 0 0 0;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -155,9 +155,10 @@ header {
   font-weight: 300;
   font-style: italic;
   font-size: 13px;
-  width: 50%;
+  width: 60%;
   display: block;
   margin: 0 auto;
+  padding: 15px 0 0 0;
 }
 
 .testimonial-attribution {
@@ -175,7 +176,7 @@ header {
   width: 150px;
   height: 30px;
   background: #033048;
-  padding: 5px 0 0 0;
+  padding: 7px 0 0 0;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -187,7 +188,7 @@ header {
 }
 
 footer {
-  background: #000;
+  background: #121212;
   height: auto;
   padding: 5px;
 }
@@ -203,7 +204,7 @@ footer {
 .social-media {
   text-align: center;
   list-style: none;
-  padding: 0;
+  padding: 0 10px 0 0;
   margin: 0;
 }
 
