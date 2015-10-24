@@ -1,0 +1,112 @@
+.container {
+	background: #D8d8d8;
+	margin-bottom: 20px;
+	padding: 50px;
+	border: 1px solid #AFAFAF;
+
+}
+
+header, footer {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.left-sidebar {
+	width: 24%;
+	float: left;
+}
+
+.main {
+	width: 50%;
+	float: left;
+	margin: 0 1%;
+}
+
+.right-sidebar {
+	width: 24%;
+	float: right;
+}
+
+.main-wrapper {
+	width: 100%;
+}
+
+.main-wrapper .container {
+	padding: 150px 0;
+}
+
+.left-main {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+
+.right-main {
+	width: 48%;
+	margin-left: 2%;
+	float: right;
+}
+
+.aside-wrapper {
+	width: 100%;
+}
+
+.aside-left {
+	width: 30%;
+	float: left;
+	margin-right: 2%;
+}
+
+.aside-middle {
+	width: 32%;
+	float: left;
+	margin: 0 2%;
+}
+
+.aside-right {
+	width: 30%;
+	float: right;
+	margin-left: 2%;
+}
+
+.nav-header {
+	width: 100%;
+}
+
+.nav-logo {
+	width: 20%;
+	float: left;
+}
+
+.nav-list {
+	float: right;
+	width: 75%;
+	margin: 0;
+	padding: 31px 0;
+}
+
+.nav-list .container {
+	padding: 20px;
+}
+
+.nav-list li {
+	list-style: none;
+	display: inline-block;
+	width: 15%;
+	margin: 0 0 0 4%;
+	float: right;
+}
+
+.full-main {
+	width: 100%;
+	clear: both;
+}
+
+.full-main .container {
+	padding: 150px;
+}

@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Merriweather:400,700italic,700|Oswald:400,700);
+
+.smt_nav_outer {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+	border-bottom: 4px solid #FFFF00;
+}
+
+.smt_nav_logo {
+	width: 350px;
+	font-size: 30px;
+	color: #FFFF00;
+	font-family: 'Merriweather', Georgia, serif;
+	margin: 20px;
+	font-weight: 700;
+	float: left;
+}
+
+
+.smt_nav_menu {
+	float: right;
+	margin: 25px 30px 0 0;
+}
+
+.smt_nav_menu > li {
+	list-style: none;
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.smt_nav_menu > li > a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+}
+
+.smt_nav_menu > li > a:hover {
+	color: #FFFF00;
+}
+
+.smt_nav_audience > a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.smt_tagline {
+	background: #CDCDCD;
+	padding: 25px 20px;
+	text-align: center;
+	font-family: 'Merriweather', Georgia, serif;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.taste-strikethrough {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.are-underline {
+	border-bottom: 3px solid #FFFF00;
+}
+
+.smt_homebanner {
+	position: relative;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url(images/coworking.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+.smt_homebanner_featuredbox {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 400px;
+	float: right;
+	background: rgba(255,255,255,0.7);
+	padding: 40px 30px;
+	margin: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.smt_homebanner_featuredbox h2 {
+	font-weight: 700;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.smt_homebanner_featuredbox p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+}
