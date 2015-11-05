@@ -1,44 +1,49 @@
 jQuery(document).ready(function(){
 
-// Remove default launch for links
+
 jQuery('.readmore a').on('click',function(){
-    event.preventDefault(); 
+
+	// Prevent link from launching
+	event.preventDefault(); 
+
+	// Show the paragraph
+	jQuery('#show-this-on-click').slideToggle();
+
+	// Show the read less
+	jQuery('.readless').slideToggle();
+
+	// Hide the read more
+	jQuery('.readmore').slideToggle();
+
 });
 
 jQuery('.readless a').on('click',function(){
-    event.preventDefault(); 
+
+	// Prevent link from launching
+	event.preventDefault(); 
+
+	// Hide the paragraph
+	jQuery('#show-this-on-click').slideToggle();
+
+	// Hide the read less
+	jQuery('.readless').slideToggle();
+
+	// Show the read more
+	jQuery('.readmore').slideToggle();
+
 });
 
-jQuery('a.learnmore').on('click',function(){
-    event.preventDefault(); 
+jQuery('.learnmore').on('click',function(){
+
+	// Prevent link from launching
+	event.preventDefault(); 
+
+	// Show the paragraph
+	jQuery('#learnmoretext').slideToggle();
+
+	// Hide the learn more
+	jQuery('.learnmore').toggle();
+
 });
-
-// Toggle functions
-
-function showContent() {
-  jQuery('#show-this-on-click').slideDown();
-  jQuery('.readmore').hide();
-  jQuery('.readless').show();
-}
-
-function hideContent() {
-  jQuery('#show-this-on-click').slideToggle();
-  jQuery('.readless').slideToggle();
-  jQuery('.readmore').slideToggle();
-}
-
-// On click, run functions
-
-jQuery('.readmore a').click(showContent);
-jQuery('.readless a').click(hideContent);
-
-// Learn more toggle function
-
-function showLearnMore() {
-  jQuery('#learnmoretext').slideDown();
-  jQuery('.learnmore').hide();
-}
-
-jQuery('a.learnmore').click(showLearnMore);
 
 });
