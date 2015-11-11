@@ -1,0 +1,36 @@
+.cforum_sidebar {
+	width: 20%;
+	height: 100%;
+	background: #373636;
+	color: #FFF;
+	overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    left: 0px;
+    min-height: 600px;
+}
+
+.cforum_logo {
+	margin: 70px auto 85px auto;
+    display: block;
+    width: 80px;
+    height: auto;
+}
+
+.cforum_nav {
+	color: #fff;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 40px;
+    float: right;
+}
+
+.cforum_nav li {
+	font-family: 'Oswald';
+	font-weight: 400;
+    height: 35px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 7px 0;
+}
