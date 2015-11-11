@@ -1,4 +1,3 @@
-// $(".city").attr("src", "http://lorempixel.com/g/500/400/food"); }
 
 // Wait for the DOM elements to load before executing
 $(document).ready(function() {
