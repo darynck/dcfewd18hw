@@ -1,0 +1,156 @@
+body {
+	font-family: 'Raleway', helvetica, sans-serif;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+.axium-header {
+	background: #000;
+	width: 100%;
+	height: 100px;
+	padding: 30px 0;
+	margin: 0;
+	box-shadow: 2px 2px 6px 3px rgba(0,0,0,.3);
+}
+
+.axium-top-nav {
+   float: right;
+   position: relative;
+   display: block;
+   overflow: hidden;
+   padding-top: 25px;
+}
+
+.axium-search {
+	width: 220px;
+	float: right;
+	margin-bottom: 10px;
+} 
+
+.axium-top-nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.axium-top-social-links li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	margin: 0 10px 0 0;
+}
+
+.axium-top-nav-links li {
+  list-style-type: none;
+  height: 25px;
+  display: inline;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 0 6px 0 9px;
+  margin: 0;
+}
+
+.axium-top-nav-links li+li {
+	border-left: 1px solid white;
+}
+
+.axium-main-nav {
+	width: 100%;
+	background: #ECECEC;
+	height: 50px;
+	color: #496B77;
+	margin: -10px 0 0 0;
+	padding: 0;
+}
+
+
+.axium-main-nav-links li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	margin-top: 10px;
+	font-size: 22px;
+	width: 170px;
+	text-align: center;
+	padding: 0;
+}
+
+.axium-main-nav-links li+li {
+	border-left: 1px solid #496B77;
+}
+
+.axium-feature-wrap {
+	background: url(../images/topsection-background.png);
+	margin: -21px 0 0 0;
+	padding: 0;
+}
+
+.axium-feature-product {
+	width: 960px;
+	min-height: 620px;
+	background: rgba(0,0,0,.4);
+}
+
+.axium-breadcrumb-links {
+	width: 150px;
+}
+
+
+.axium-breadcrumb-links li {
+	font-size: 13px;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	padding: 10px 3px;
+}
+
+.axium-breadcrumb-links li:before {
+content: " > ";
+}
+
+.axium-breadcrumb-links li:first-child:before {
+content: none;
+}
+
+.axium-feature-image {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	margin: 50px 50px 0 -130px;
+	padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

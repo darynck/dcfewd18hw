@@ -32,7 +32,7 @@ function addvalue() {
 	var entriesHTML = entriesElement.innerHTML;
 
 	// add the new entry to the variable
-	entriesHTML = entriesHTML + "<div>" + currency + "</div>";
+	entriesHTML = entriesHTML + "<div>"+currency+"</div>";
 
 	// replace the content of the entries doc element with the updated variable
 	entriesElement.innerHTML = entriesHTML;
@@ -42,7 +42,7 @@ function addvalue() {
 	total = total + entry;
 
 	// update the document element with the total
-	total Element.innerHTML = currencyFormat(total);
+	totalElement.innerHTML = currencyFormat(total);
 
 	// empty the entry element
 	entryElement.value = '';
