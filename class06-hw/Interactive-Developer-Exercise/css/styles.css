@@ -92,7 +92,7 @@ li {
 
 .axium-feature-wrap {
 	background: url(../images/topsection-background.png);
-	margin: -21px 0 0 0;
+	margin: -15px 0 0 0;
 	padding: 0;
 }
 
@@ -133,10 +133,24 @@ content: none;
 
 }
 
+.axium-feature-description {
+	padding: 40px 20px;
+	margin: 0;
+}
 
+.axium-feature-description h1 {
+	font-weight: 100;
+	font-size: 40px;
+}
 
+.axium-feature-list {
+	font-weight: 100;
+	text-transform: uppercase;
+}
 
-
+.axium-feature-list li {
+	padding-bottom: 7px;
+}
 
 
 

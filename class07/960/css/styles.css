@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: #D8d8d8;
+	height: 150px;
+	padding: 20px;
+	text-align: center;
+}
+
+.inner {
+	margin-bottom: 20px;
+}
+
+.tall {
+	height: 490px;
+}
+
+.box3 {
+	background-color: #D8d8d8;
+	height: 75px;
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.container_12 {
+	margin-bottom: 20px;
+}
+
+.box4 {
+	height: 350px;
+	background-color: #D8d8d8;
+	height: 350px;
+	padding: 20px;
+	text-align: center;
+}
