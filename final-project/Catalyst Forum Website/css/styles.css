@@ -46,6 +46,11 @@ body.home {
     text-decoration: none;
     color: #373636;
 }
+.cforum_nav li a.active { 
+    color: #DB2E0E; 
+    border-bottom: 2px solid #fff;
+    font-weight: 700; 
+}
 
 .cforum_main_wrap {
     float: right;
@@ -71,36 +76,60 @@ body.home {
     width: 600px;
     height: auto;
     padding-top: 200px;
+    padding-bottom: 100px;
 }
+
 .forum_title {
-    margin: 0;
-    padding-top: 200px;
+    margin: 0 auto;
+    max-width: 400px;
     text-align: center;
-    font-size: 44px;
-    letter-spacing: 3px;
+    font-size: 23px;
+    letter-spacing: 7px;
+    padding: 15px;
+    border: 1px solid #373636;
 }
 
 .forum_tagline {
     text-align: center;
     position: relative;
     margin: 0;
-    font-size: 34px;
-    font-weight: 400;
+    padding: 5px 0 0 0;
+    font-size: 24px;
+    font-family: 'Bad Script', sans-serif;
 }
 
 #cforum_overview_slide {
     background: #DB2E0E;
     margin: 0;
-    padding: 0;
-    min-height: 717px;
+    padding-top: 70px;
+    min-height: 647px;
     color: #FFF;
     text-align: center;
     position: relative;
 }
 
+.cforum_overview_title {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 7px;
+    padding: 15px;
+    border: 1px solid #FFF;
+}
+
+.cforum_overview_tagline {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-size: 24px;
+    font-family: 'Bad Script', sans-serif;
+}
+
 .cforum_overview_header {
     margin: 0 auto;
-    padding: 150px 0 30px 0;
+    padding: 50px 0 30px 0;
     width: 70%;
     font-weight: 700;
     font-size: 36px;
@@ -111,7 +140,7 @@ body.home {
     margin: 0 auto;
     width: 70%;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -121,6 +150,7 @@ body.home {
     padding: 0;
     min-height: 717px;
 }
+
 
 .cforum_logistics_details {
     padding: 50px 10px 50px 50px;
@@ -139,6 +169,11 @@ iframe {
 .cforum_logistics_details h1 {
     color: #DB2E0E;
     font-size: 40px;
+}
+
+.cforum_logistics_details h2{
+    font-family: 'Bad Script', sans-serif;
+    font-size: 36px;
 }
 
 .cforum_logistics_details p {
@@ -163,19 +198,19 @@ iframe {
 }
 
 .bio1 {
-    background: #DB2E0E;
+    background: #0F2D40;
 }
 
 .bio2 {
-    background: #5F5F62;
+    background: #194759;
 }
 
 .bio3 {
-    background: #003A5D;
+    background: #296B73;
 }
 
 .bio4 {
-    background: #02A0B1;
+    background: #3E8C84;
 }
 
 .cforum_presenter_bios img {
@@ -184,17 +219,22 @@ iframe {
 }
 
 .cforum_presenter_bios h1 {
-    font-size: 26px;
-    margin: 30px 0 10px 0;
+    font-size: 24px;
+    margin: 30px 0 0px 0;
     padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
 .cforum_presenter_bios h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     font-weight: 400;
+    font-family: 'Bad Script', sans-serif;
+
 }
+
 
 .cforum_presenter_bios p {
     font-size: 14px;

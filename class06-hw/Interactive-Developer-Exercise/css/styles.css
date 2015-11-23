@@ -28,7 +28,6 @@ li {
    float: right;
    position: relative;
    display: block;
-   overflow: hidden;
    padding-top: 25px;
 }
 
@@ -92,20 +91,22 @@ li {
 
 .axium-feature-wrap {
 	background: url(../images/topsection-background.png);
-	margin: -15px 0 0 0;
+	margin:  0;
 	padding: 0;
+	width: 100%;
 }
 
 .axium-feature-product {
 	width: 960px;
-	min-height: 620px;
+	min-height: 600px;
 	background: rgba(0,0,0,.4);
 }
 
 .axium-breadcrumb-links {
 	width: 150px;
+	padding: 10px 0 0 15px;
+	margin: 0;
 }
-
 
 .axium-breadcrumb-links li {
 	font-size: 13px;
@@ -125,16 +126,14 @@ content: none;
 
 .axium-feature-image {
 	float: left;
-	overflow: hidden;
 	position: relative;
 	display: block;
-	margin: 50px 50px 0 -130px;
+	margin: 50px 70px 0 -80px;
 	padding: 0;
-
+	width: 400px;
 }
-
 .axium-feature-description {
-	padding: 40px 20px;
+	padding: 40px 20px 0px 20px;
 	margin: 0;
 }
 
@@ -152,12 +151,41 @@ content: none;
 	padding-bottom: 7px;
 }
 
+.axium-product-details {
+	background: #898989;
+	min-height: 800px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 10;
+	box-shadow: inset 0 7px 9px -7px rgba(0,0,0,.4);
+
+}
+
+.axium-tough-mojo-description {
+	height: 600px;
+	padding: 20px 10px 10px 40px;
+	margin: 0;
+	position: relative;
+	width: 35%;
+	float: left;
+}
+
+.axium-product-details img {
+	padding: 20px 0 0 0;
+	float: left;
+	width: 500px;
+	margin: 0;
+}
 
 
-
-
-
-
+.axium-product-details p {
+	margin: 0;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-bottom: 20px;
+} 
 
 
 
