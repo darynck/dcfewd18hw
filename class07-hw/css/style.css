@@ -72,6 +72,18 @@ a {
   font-weight: 800;
 }
 
+
+.hamburger {
+    font-size: 2em;
+    display: none;
+    color: #f9e42e;
+
+}
+
+.hamburger:before {
+    content: "≡";
+}
+
 header {
   background: #033048;
   padding: 25px 0;
@@ -140,7 +152,7 @@ h3 {
   margin-bottom: 40px;
 }
 #benefits p, #benefits ul {
-  width: 600px;
+  max-width: 600px;
 }
 #benefits ul {
   list-style: disc;
@@ -148,7 +160,8 @@ h3 {
 }
 #testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
-  padding: 70px 0 70px;
+  background-size: cover;
+  padding: 70px 0;
   color: #fff;
 }
 blockquote {
@@ -156,9 +169,10 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  width: 580px;
+  max-width: 580px;
   margin: 0 auto;
 }
+
 blockquote span {
   font-weight: 600;
   display: block;
@@ -168,13 +182,13 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  max-width: 700px;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
 }
 #sidebar {
-  width: 240px;
+  max-width: 240px;
   display: inline-block;
   vertical-align: top;
 }
@@ -245,6 +259,7 @@ blockquote span {
   margin-bottom: 15px;
   color: #043049;
 }
+
 #sidebar ul {
   margin-bottom: 40px;
 }
@@ -288,5 +303,162 @@ footer p {
   font-weight: 600;
 }
 
+.mobilehide {
+  display: block;
+}
+
+@media (max-width: 959px) and (min-width: 801px) {
+
+.container {
+  width: auto;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+#hero h2, #benefits h3, #benefits p, #benefits ul, #testimonial blockquote, #posts {
+  padding: 0 30px;
+}
+
+#sidebar {
+  max-width: 700px;
+  padding: 0 30px;
+  float: none;
+}
+
+#sidebar .sidebar-categories {
+  float: left;
+  margin-right: 40px;
+}
+
+#sidebar .sidebar-about{
+  padding-right: 30px;
+}
+
+.ad-unit {
+  display: block;
+  clear: both;
+}
+
+}
+
+
+@media (max-width: 800px) and (min-width: 521px) {
+
+.mobilehide {
+  display: none;
+}
+
+.navigation {
+  width: 100%;
+}
+
+#posts {
+  margin: 0;
+}
+
+#posts img {
+  width: 100%;
+}
+
+.main-nav li {
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #FFF;
+  width: 90%;
+}
+
+.hamburger {
+  display: inline-block;
+}
+
+.logo {
+  margin: 0 50px 0 30px;
+}
+
+.container {
+  width: auto;
+}
+
+#hero h2, #benefits h3, #benefits p, #benefits ul, #testimonial blockquote, #posts {
+  padding: 0 30px;
+}
+
+#sidebar {
+  max-width: 700px;
+  padding: 0 30px;
+  float: none;
+}
+
+#sidebar .sidebar-categories {
+  float: left;
+  margin-right: 40px;
+}
+
+#sidebar .sidebar-about{
+  padding-right: 30px;
+}
+
+.ad-unit {
+  display: block;
+  clear: both;
+}
+
+}
+
+@media (max-width: 520px) {
+
+.mobilehide {
+  display: none;
+}
+
+.navigation {
+  width: 100%;
+}
+
+#posts {
+  margin: 0;
+}
+
+#posts img {
+  width: 100%;
+}
+
+.main-nav li {
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #FFF;
+  width: 90%;
+}
+
+.hamburger {
+  display: inline-block;
+}
+
+.logo {
+  margin: 0 50px 0 30px;
+}
+
+.container {
+  width: auto;
+}
+
+#hero h2, #benefits h3, #benefits p, #benefits ul, #testimonial blockquote, #posts {
+  padding: 0 30px;
+}
+
+#sidebar {
+  max-width: 700px;
+  padding: 0 30px;
+  float: none;
+}
+
+#sidebar .sidebar-categories .sidebar-about {
+  width: auto;
+  float: none;
+}
+
+}
 
 

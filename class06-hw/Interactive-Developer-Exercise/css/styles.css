@@ -187,12 +187,58 @@ content: none;
 	padding-bottom: 20px;
 } 
 
+.axium-reviews {
+	background: #00314F;
+	height: 600px;
+}
 
+.axium-reviews h2 {
+	margin: 0;
+	font-weight: 100;
+	font-size: 40px;
+	padding: 30px 20px 20px 150px;
+}
 
+.axium-review-tagline a {
+	font-size: 16px;
+	color: #fff;
+	padding-left: 30px;
+}
 
+.axium-review-headshot {
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding-top: 25px;
+}
 
+.axium-review-headshot p {
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+.axium-review-headshot img {
+	border: 1px solid #FFF;
+}
 
+.axium-review-body {
+	width: 800px;
+	float: left;
+}
 
+.axium-review-body img {
+	padding: 0 3px;
+}
+
+.axium-review-date {
+	font-weight: 100;
+	padding: 0 10px;
+}
+
+.axium-review-body p {
+	line-height: 1.4;
+	padding: 0 30px 30px 0;
+}
 
 
 

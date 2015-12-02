@@ -15,9 +15,11 @@
 	<body>
 		<header>
 			<div class="container">
+				<a href="#" class="hamburger"></a>
+
 				<h1 class="logo">Relaxr</h1>
-				<nav>
-					<ul>
+				<nav class="navigation mobilehide">
+					<ul class="main-nav">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Contact</a></li>
@@ -45,6 +47,7 @@
 					</article>
 				</section><!--
 			--><aside id="sidebar">
+					<div class="sidebar-categories">
 					<h3>Categories</h3>
 					<ul>
 						<li><a href="#">Success stories</a></li>
@@ -53,10 +56,15 @@
 						<li><a href="#">Best of</a></li>
 						<li><a href="#">Business tips</a></li>
 					</ul>
+					</div>
+					<div class="sidebar-about">
 					<h3>About Relaxr</h3>
 					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
 					<a href="">Learn More</a></p>
+				</div>
+				<div class="ad-unit">
 					<img src="images/ad-unit.png" alt="Ad Unit">
+				</div>
 				</aside>
 			</div>
 		</section>
@@ -74,5 +82,8 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
 	</body>
 </html>
