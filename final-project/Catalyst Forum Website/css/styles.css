@@ -1,3 +1,31 @@
+
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/* Styles */
+
 body.home {
 	font-family: 'Source Sans Pro',helvetica,sans-serif;
 	margin: 0px;
@@ -94,7 +122,7 @@ body.home {
     font-size: 23px;
     letter-spacing: 7px;
     padding: 15px;
-    border: 1px solid #373636;
+    border: 2px solid #373636;
 }
 
 .forum_tagline {
@@ -123,7 +151,7 @@ body.home {
     font-size: 23px;
     letter-spacing: 7px;
     padding: 15px;
-    border: 1px solid #FFF;
+    border: 2px solid #FFF;
 }
 
 .cforum_overview_tagline {
@@ -270,8 +298,6 @@ iframe {
     color: #FFF;
 }
 
-
-
 #wufoo-z9ggbxv0tfdwo6 {
     float: right;
     width: 40%;
@@ -279,9 +305,136 @@ iframe {
     padding-top: 10px;
 }
 
+.navspacer {
+    display: none;
+}
+
+.hamburger {
+    font-size: 3em;
+    display: none;
+}
+
+.hamburger:before {
+    content: "≡";
+}
+
+.mobilehide {
+    display: block;
+}
+
+@media (max-width: 1000px) and (min-width: 860px) {
 
 
+.cforum_main_wrap {
+    float: none;
+    width: auto;
+}
 
+.cforum_sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    float: none;
+}
+
+
+.cforum_nav {
+    float: none;
+}
+
+.cforum_small_logo{
+    float: left;
+    padding: 13px 0 13px 30px;
+    margin: 0;
+    height: auto;
+}
+.cforum_nav li {
+    display: inline-block;
+    min-width: 100px;
+    margin: 0 10px;
+}
+
+#cforum_overview_slide, #cforum_logistics_slide, #cforum_presenters_slide, #cforum_contact_slide {
+    clear: both;
+    overflow: hidden;
+}
+
+.navspacer {
+    height: 100px;
+    display: block;
+}
+
+}
+
+@media (max-width: 859px) and (min-width: 400px) {
+
+.navigation {
+    background: rgba(255,255,255,.3);
+}
+
+.mobilehide {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    float: right;
+    padding-right: 45px;
+    text-decoration: none;
+    color: #DB2E0E;
+    font-size: 80px;
+    }
+
+.cforum_main_wrap {
+    float: none;
+    width: auto;
+}
+
+.cforum_sidebar {
+    height: auto;
+        margin: 0;
+
+    width: 100%;
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    float: none;
+}
+
+.cforum_nav {
+    float: none;
+    height: auto;
+}
+
+.cforum_small_logo{
+    float: left;
+    padding: 13px 0 13px 30px;
+    margin: 0;
+    height: auto;
+}
+.cforum_nav li {
+    clear: both;
+    display: block;
+    min-width: 100px;
+    margin: 0 10px;
+    height: 24px;
+    border: none;
+    font-size: 20px;
+}
+
+#cforum_overview_slide, #cforum_logistics_slide, #cforum_presenters_slide, #cforum_contact_slide {
+    clear: both;
+    overflow: hidden;
+}
+
+.navspacer {
+    height: 100px;
+    display: block;
+}
+
+}
 
 
 

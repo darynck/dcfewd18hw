@@ -35,4 +35,9 @@ var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') retu
 try { z9ggbxv0tfdwo6 = new WufooForm();z9ggbxv0tfdwo6.initialize(options);z9ggbxv0tfdwo6.display(); } catch (e) {}};
 var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 })(document, 'script');
+
+jQuery('.hamburger').click(function() {
+	$(".navigation").toggleClass("mobilehide")
+	});
+
 });
