@@ -36,7 +36,7 @@ body.home {
 
 .cforum_sidebar {
 	width: 20%;
-	height: 717px;
+	min-height: 717px;
 	background: #FFF;
 	color: #000;
 	overflow: auto;
@@ -321,6 +321,15 @@ iframe {
 .mobilehide {
     display: block;
 }
+
+@media (max-width: 1366px) and (min-width: 1001px) {
+
+#cforum_sidebar, #cforum_overview_slide, #cforum_logistics_slide, #cforum_presenters_slide, #cforum_contact_slide {
+    height: 768px;
+}
+
+}
+
 
 @media (max-width: 1000px) and (min-width: 860px) {
 
