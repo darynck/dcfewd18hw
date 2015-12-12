@@ -36,8 +36,12 @@ try { z9ggbxv0tfdwo6 = new WufooForm();z9ggbxv0tfdwo6.initialize(options);z9ggbx
 var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 })(document, 'script');
 
+
 jQuery('.hamburger').click(function() {
+	event.preventDefault(); 
 	$(".navigation").toggleClass("mobilehide")
 	});
+
+
 
 });
