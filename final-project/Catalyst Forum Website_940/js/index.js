@@ -39,9 +39,8 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 
 jQuery('.hamburger').click(function() {
 	event.preventDefault(); 
-	$(".navigation").toggleClass("mobilehide")
-	});
+	$(".cforum_mobile_nav_icons").toggleClass("mobilehide")
 
-
-
+});
+	
 });
