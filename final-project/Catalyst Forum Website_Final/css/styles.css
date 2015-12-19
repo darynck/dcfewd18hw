@@ -26,7 +26,7 @@
 
 /* Styles */
 
-body.home {
+body {
 	font-family: 'Source Sans Pro',helvetica,sans-serif;
 	margin: 0;
     padding: 0;
@@ -83,6 +83,7 @@ body.home {
     text-decoration: none;
     color: #373636;
 }
+
 .cforum_nav li a.active { 
     color: #DB2E0E; 
     border-bottom: 2px solid #fff;
@@ -175,7 +176,6 @@ body.home {
     font-weight: 700;
     text-align: center;
     letter-spacing: 2px;
-
 }
 
 
@@ -245,7 +245,7 @@ body.home {
     font-size: 20px;
 }
 
-iframe {
+.cforum-mapbox {
     padding: 50px 50px 50px 10px;
     float: right;
     width: 45%;
@@ -545,7 +545,7 @@ iframe {
     overflow: hidden;
     clear: both;
     position: fixed;
-background: #FFF;
+    background: #FFF;
     color: #000;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
 }
@@ -641,7 +641,7 @@ background: #FFF;
     width: auto;
 }
 
-iframe {
+.cforum-mapbox {
     float: none;
     width: 90%;
     height: 400px;
@@ -802,7 +802,7 @@ background: #FFF;
     width: auto;
 }
 
-iframe {
+.cforum-mapbox {
     float: none;
     width: 90%;
     height: 500px;
