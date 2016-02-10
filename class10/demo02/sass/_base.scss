@@ -1,0 +1,41 @@
+$color1: #FFFFFF;
+$color2: #FF4CA5;
+$color3: #ff007f;
+$color4: #7F2653;
+$color5: #CC0066;
+$color6: #031f38;
+
+.wrap {
+  background-color: $color1;
+  @include container;
+}
+
+header, article, aside {
+  margin-bottom: gutter();
+}
+
+header {
+    padding: 2em;
+    background-color: $color2;
+}
+
+article {
+    @include span(8);
+    padding: 2em;
+    background-color: $color3;
+    @media (max-width: 800px) {
+      @include span(24);
+    }
+}
+
+aside {
+    @include span(4 last);
+    padding: 2em;
+    background-color: $color5;
+}
+
+footer {
+    clear: both;
+    padding: 2em;
+    background-color: $color4;
+}
